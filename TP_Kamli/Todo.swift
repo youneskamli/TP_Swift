@@ -22,4 +22,6 @@ class Todo {
         self.date = date
         self.status = false
     }
+    
+
 }
