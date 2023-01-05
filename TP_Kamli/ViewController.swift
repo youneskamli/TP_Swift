@@ -58,8 +58,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     @IBOutlet weak var myTableView: UITableView!
     
-    @IBOutlet weak var recherche: UISearchBar!
     
+    @IBOutlet weak var recherche: UISearchBar!
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let vc = segue.destination as? DetailViewController {
